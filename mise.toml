@@ -1,0 +1,6 @@
+# Project-local tools
+[tools]
+bun = "latest"
+
+[shell_alias]
+job = "fish scripts/job.fish"
