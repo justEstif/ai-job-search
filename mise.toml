@@ -3,4 +3,4 @@
 bun = "latest"
 
 [shell_alias]
-job = "fish scripts/job.fish"
+job = "env PI_CODING_AGENT_DIR=$MISE_PROJECT_DIR/.pi-agent pi --no-skills"
