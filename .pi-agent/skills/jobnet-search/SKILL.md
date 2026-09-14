@@ -1,7 +1,7 @@
 ---
 name: jobnet-search
 version: 1.0.0
-description: Use for anything related to Danish job searching, job listings, vacancies, or the official Danish public job portal jobnet.dk (operated by STAR) — even if not mentioned explicitly. Triggers: danish jobs, danish job search, jobnet, jobnet.dk, find job denmark, danish employment, job i danmark, offentlige job, stillinger i det offentlige, public sector jobs denmark, government jobs denmark, STAR jobs, ledige stillinger, job opslag, job vacancy denmark, sygepleje/ingeniør/lærer/pædagog job, it-job denmark, jobs in copenhagen/aarhus/odense, deltidsjob, fuldtidsjob, fastansættelse, fleksjob, occupation search denmark, esco occupation, job deadline, ansøgningsfrist, søg efter job.
+description: "Use for anything related to Danish job searching, job listings, vacancies, or the official Danish public job portal jobnet.dk (operated by STAR) — even if not mentioned explicitly. Triggers: danish jobs, danish job search, jobnet, jobnet.dk, find job denmark, danish employment, job i danmark, offentlige job, stillinger i det offentlige, public sector jobs denmark, government jobs denmark, STAR jobs, ledige stillinger, job opslag, job vacancy denmark, sygepleje/ingeniør/lærer/pædagog job, it-job denmark, jobs in copenhagen/aarhus/odense, deltidsjob, fuldtidsjob, fastansættelse, fleksjob, occupation search denmark, esco occupation, job deadline, ansøgningsfrist, søg efter job."
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 ---

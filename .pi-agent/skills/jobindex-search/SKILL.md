@@ -1,7 +1,7 @@
 ---
 name: jobindex-search
 version: 1.0.0
-description: Use whenever the user wants to search jobs in Denmark, find Danish job listings, look up a specific posting, or asks anything about the Danish job market — even if jobindex.dk is not mentioned explicitly. Triggers: jobindex, jobsøgning, job i Danmark, ledige stillinger, job opslag, find job, stillingsopslag, jobannonce, job vacancy denmark, danish jobs, jobs in denmark, job search denmark, work in denmark, IT jobs denmark, engineer jobs denmark, developer jobs copenhagen, jobs aarhus/københavn/odense/aalborg, job openings denmark, hiring denmark, python jobs denmark, grafisk designer job, data engineer job, softwareudvikler job, full stack developer job danmark.
+description: "Use whenever the user wants to search jobs in Denmark, find Danish job listings, look up a specific posting, or asks anything about the Danish job market — even if jobindex.dk is not mentioned explicitly. Triggers: jobindex, jobsøgning, job i Danmark, ledige stillinger, job opslag, find job, stillingsopslag, jobannonce, job vacancy denmark, danish jobs, jobs in denmark, job search denmark, work in denmark, IT jobs denmark, engineer jobs denmark, developer jobs copenhagen, jobs aarhus/københavn/odense/aalborg, job openings denmark, hiring denmark, python jobs denmark, grafisk designer job, data engineer job, softwareudvikler job, full stack developer job danmark."
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 ---
