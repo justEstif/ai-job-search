@@ -3,4 +3,4 @@
 bun = "latest"
 
 [shell_alias]
-job = "env PI_CODING_AGENT_DIR=$MISE_PROJECT_DIR/.pi-agent pi --no-skills"
+job = '''env PI_CODING_AGENT_DIR=$MISE_PROJECT_DIR/.pi-agent pi --no-skills --no-approve {{ exec(command="find .pi-agent/skills -mindepth 1 -maxdepth 1 -type d | sort | while read -r d; do printf -- '--skill %s/ ' \"$d\"; done; find .pi-agent/extensions -maxdepth 1 -type f -name '*.ts' | sort | while read -r f; do printf -- '--extension %s ' \"$f\"; done") | trim }}'''
