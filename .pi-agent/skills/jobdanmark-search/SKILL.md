@@ -1,21 +1,7 @@
 ---
 name: jobdanmark-search
 version: 1.0.0
-description: >
-  Make sure to use this skill whenever the user mentions anything related to Danish
-  job listings, job search in Denmark, finding work in Denmark, or job vacancies on
-  Jobdanmark — even if they don't explicitly mention jobdanmark.dk. Also invoke this
-  skill for questions about specific Danish job categories, municipalities, job types,
-  or salaries in a job-search context. Trigger phrases include:
-  danish jobs, jobs in denmark, find job denmark, job search denmark, danish job listings,
-  jobdanmark, job opslag, find job, jobsøgning, ledige stillinger, stillingsopslag,
-  job i Danmark, fuldtidsjob, deltidsjob, studiejob, praktikplads, elev, fleksjob,
-  IT job denmark, sygeplejersker job, håndværker job, ingeniør job, pædagog job,
-  kontor job, leder job, salg job, hotel job, kirke job, job aarhus, job københavn,
-  job odense, job aalborg, job sjælland, job jylland, job fyn, jobkategorier denmark,
-  ledige job, ansøgningsfrist, søg job, job opslaget, jobopslag, danish vacancies,
-  work in denmark, employment denmark, job denmark, jobs near me denmark,
-  apprentice denmark, internship denmark, part-time denmark, full-time denmark.
+description: Use for anything related to Danish job listings, job search in Denmark, or vacancies on jobdanmark.dk — even if not mentioned explicitly. Triggers: danish jobs, jobs in denmark, find job denmark, job search denmark, danish job listings, jobdanmark, job opslag, jobsøgning, ledige stillinger, stillingsopslag, job i Danmark, fuldtidsjob, deltidsjob, studiejob, praktikplads, elev, fleksjob, IT/ingeniør/pædagog/kontor/leder/salg/hotel/kirke job denmark, sygeplejersker job, håndværker job, job aarhus/københavn/odense/aalborg/sjælland/jylland/fyn, jobkategorier denmark, ledige job, ansøgningsfrist, søg job, jobopslag, danish vacancies, work in denmark, employment denmark, jobs near me denmark, apprentice/internship/part-time/full-time denmark.
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 ---

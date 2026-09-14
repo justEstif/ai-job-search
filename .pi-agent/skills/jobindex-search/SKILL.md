@@ -1,21 +1,7 @@
 ---
 name: jobindex-search
 version: 1.0.0
-description: >
-  Make sure to use this skill whenever the user wants to search for jobs in Denmark,
-  find Danish job listings, look up a specific job posting, or asks anything about
-  the Danish job market — even if they don't mention jobindex.dk explicitly. Invoke
-  this skill for questions about open positions, job vacancies, hiring in Denmark,
-  job opportunities in Danish cities or sectors, or when the user wants to find work
-  in Denmark. Also trigger for phrases like "find me a job", "are there any jobs for
-  X in Copenhagen", or "what jobs are available in Aarhus" when the context is Denmark.
-  Trigger phrases include: jobindex, jobsøgning, job i Danmark, ledige stillinger,
-  job opslag, find job, stillingopslag, jobannonce, job vacancy denmark, danish jobs,
-  jobs in denmark, job search denmark, work in denmark, find work denmark, IT jobs
-  denmark, engineer jobs denmark, developer jobs copenhagen, marketing jobs aarhus,
-  jobs aarhus, jobs copenhagen, jobs odense, jobs aalborg, job openings denmark,
-  hiring denmark, job listings denmark, python jobs denmark, grafisk designer job,
-  data engineer job, softwareudvikler job, full stack developer job danmark.
+description: Use whenever the user wants to search jobs in Denmark, find Danish job listings, look up a specific posting, or asks anything about the Danish job market — even if jobindex.dk is not mentioned explicitly. Triggers: jobindex, jobsøgning, job i Danmark, ledige stillinger, job opslag, find job, stillingsopslag, jobannonce, job vacancy denmark, danish jobs, jobs in denmark, job search denmark, work in denmark, IT jobs denmark, engineer jobs denmark, developer jobs copenhagen, jobs aarhus/københavn/odense/aalborg, job openings denmark, hiring denmark, python jobs denmark, grafisk designer job, data engineer job, softwareudvikler job, full stack developer job danmark.
 context: fork
 enabled: false  # Danish demo portal - ships opt-in; /setup enables it when your market is Denmark, or set true here yourself
 ---
